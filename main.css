@@ -156,7 +156,7 @@ body {
     border-radius: 50%;
   }
   .js-ag-active .ag-timeline-card_point {
-    color: #1d1d1b;
+    color: #f1f1f1;
     background-color: #0176f1;
     opacity: 1 !important;
   }
