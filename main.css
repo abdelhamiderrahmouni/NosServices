@@ -66,7 +66,9 @@ body {
     color: rgb(84, 89, 95);
   }
   .ag-timeline_title {
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
+    background: rgb(133,246,10);
+    background: linear-gradient(156deg, rgba(133,246,10,1) 0%, rgba(1,118,239,1) 63%);
+    /* background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg); */
     background-repeat: no-repeat;
     background-position: 50% 50%;
   
