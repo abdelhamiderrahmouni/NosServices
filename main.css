@@ -16,9 +16,9 @@
   /* light colors */
   --light-blue: #87bbfe;
   --light-violet: #f6a4ec;
-  --light-red: #da4242;
-  --light-yellow: #ecb04b;
-  --light-orange: #ea7e45;
+  --light-red: #f38385;
+  --light-yellow: #f3be16;
+  --light-orange: #f5a27d;
   --light-green: #aff1b6;
   --light-pink: #de639a;
   --light-slate: #6f829f;
@@ -26,8 +26,8 @@
   /* regular colors */
   --dark-blue: #184096;
   --dark-violet: #532e62;
-  --dark-red: #8c1616;
-  --dark-yellow: #a66b09;
+  --dark-red: #AB2328;
+  --dark-yellow: #cc8107;
   --dark-orange: #9b3a08;
   --dark-green: #0e602c;
   --dark-pink: #981c53;
@@ -217,7 +217,7 @@ h2 {
   top: 40px;
   transform: translateY(-50%);
   background: var(--light-violet);
-  filter: blur(17px);
+  filter: blur(27px);
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
   transition-delay: 0.4s;
@@ -226,73 +226,155 @@ h2 {
 .in__view .timeline__element__icon:before{
   opacity: 1;
 }
-.timeline__element--type1 svg{
+.timeline__element--violet svg{
   color: var(--dark-violet);
 }
 
-.timeline__element--type1 .special__text{
+.timeline__element--violet .special__text{
   color: var(--violet);
 }
 
-.timeline__element--type1 .line {
+.timeline__element--violet .line {
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--violet) 15%, var(--violet) 85%, rgba(255,255,255,1) 100%);
 }
 
-.timeline__element--type2 svg{
+.timeline__element--blue svg{
   color: var(--dark-blue);
 }
 
-.timeline__element--type2 .special__text{
+.timeline__element--blue .special__text{
   color: var(--dark-blue);
 }
 
-.timeline__element--type2 .timeline__element__icon:before {
+.timeline__element--blue .timeline__element__icon:before {
   background: var(--light-blue);
   border-color: var(--blue);
 }
 
-.timeline__element--type2 .line {
+.timeline__element--blue .line {
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--blue) 15%, var(--blue) 85%, rgba(255,255,255,1) 100%);
 }
 
-.timeline__element--type2 .timeline__element__image {
+.timeline__element--blue .timeline__element__image {
   color: var(--light-blue);
 }
 
-.timeline__element--type2 .timeline__element__image__container {
+.timeline__element--blue .timeline__element__image__container {
   background: var(--blue);
   color: var(--blue);
 }
 
-.timeline__element--type2 .timeline__element__title {
+.timeline__element--blue .timeline__element__title {
   color: var(--blue);
 }
 
-.timeline__element--type3 svg{
+.timeline__element--green svg{
   color: var(--dark-green);
 }
 
-.timeline__element--type3 .special__text{
+.timeline__element--green .special__text{
   color: var(--green);
 }
 
-.timeline__element--type3 .timeline__element__icon:before {
+.timeline__element--green .timeline__element__icon:before {
   background: var(--light-green);
   border-color: var(--green);
 }
-.timeline__element--type3 .line {
+.timeline__element--green .line {
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--green) 15%, var(--green) 85%, rgba(255,255,255,1) 100%);
 }
-.timeline__element--type3 .timeline__element__image {
+.timeline__element--green .timeline__element__image {
   color: var(--light-green);
 }
-.timeline__element--type3 .timeline__element__image__container {
+.timeline__element--green .timeline__element__image__container {
   background: var(--green);
   color: var(--green);
 }
-.timeline__element--type3 .timeline__element__title {
+.timeline__element--green .timeline__element__title {
   color: var(--green);
 }
+
+
+.timeline__element--red svg{
+  color: var(--dark-red);
+}
+
+.timeline__element--red .special__text{
+  color: var(--red);
+}
+
+.timeline__element--red .timeline__element__icon:before {
+  background: var(--light-red);
+  border-color: var(--red);
+}
+.timeline__element--red .line {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--red) 15%, var(--red) 85%, rgba(255,255,255,1) 100%);
+}
+.timeline__element--red .timeline__element__image {
+  color: var(--light-red);
+}
+.timeline__element--red .timeline__element__image__container {
+  background: var(--red);
+  color: var(--red);
+}
+.timeline__element--red .timeline__element__title {
+  color: var(--red);
+}
+
+
+.timeline__element--yellow svg{
+  color: var(--dark-yellow);
+}
+
+.timeline__element--yellow .special__text{
+  color: var(--yellow);
+}
+
+.timeline__element--yellow .timeline__element__icon:before {
+  background: var(--light-yellow);
+  border-color: var(--yellow);
+}
+.timeline__element--yellow .line {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--yellow) 15%, var(--yellow) 85%, rgba(255,255,255,1) 100%);
+}
+.timeline__element--yellow .timeline__element__image {
+  color: var(--light-yellow);
+}
+.timeline__element--yellow .timeline__element__image__container {
+  background: var(--yellow);
+  color: var(--yellow);
+}
+.timeline__element--yellow .timeline__element__title {
+  color: var(--yellow);
+}
+
+
+.timeline__element--orange svg{
+  color: var(--dark-orange);
+}
+
+.timeline__element--orange .special__text{
+  color: var(--orange);
+}
+
+.timeline__element--orange .timeline__element__icon:before {
+  background: var(--light-orange);
+  border-color: var(--orange);
+}
+.timeline__element--orange .line {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--orange) 15%, var(--orange) 85%, rgba(255,255,255,1) 100%);
+}
+.timeline__element--orange .timeline__element__image {
+  color: var(--light-orange);
+}
+.timeline__element--orange .timeline__element__image__container {
+  background: var(--orange);
+  color: var(--orange);
+}
+.timeline__element--orange .timeline__element__title {
+  color: var(--orange);
+}
+
 .timeline__element:last-child:after {
   content: none;
 }
